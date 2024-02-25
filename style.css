@@ -1,0 +1,22 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    margin: 1rem;
+}
+
+.bar:hover {
+    opacity: 0.3; 
+}
